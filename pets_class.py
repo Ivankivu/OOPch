@@ -30,3 +30,6 @@ status = pets.tom.is_hungry == False and pets.fletcher.is_hungry == False and pe
 
 if status:
     print("My dogs are not hungry!")
+else:
+    print("My dogs are hungry!")
+

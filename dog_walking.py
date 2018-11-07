@@ -19,6 +19,7 @@ class Pets:
     tom.eat()
     fletcher.eat()
     larry.eat()
+    
 
 pets = Pets()
 
@@ -27,14 +28,14 @@ info = f"""
     {pets.tom.name} is {pets.tom.age}
     {pets.fletcher.name} is {pets.fletcher.age}
     {pets.larry.name} is {pets.larry.age}
-    {pets.tom.walk()}
-    {pets.fletcher.walk()}
-    {pets.larry.walk()}
+    {pets.tom.name} is {pets.tom.age}
+    {pets.fletcher.name} is {pets.fletcher.age}
+    {pets.larry.name} is {pets.larry.age}
     
     And they're all mammals, of course
 """
 print(info)
-status = pets.tom.is_hungry == True and pets.fletcher.is_hungry == False and pets.larry.is_hungry == False
+status = pets.tom.is_hungry == False and pets.fletcher.is_hungry == False and pets.larry.is_hungry == False
 
 if status:
     print("My dogs are not hungry!")
