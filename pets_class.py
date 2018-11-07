@@ -17,7 +17,6 @@ class Pets:
     larry.eat()
 
 pets = Pets()
-
 info = f"""
     I have 3 dogs.
     {pets.tom.name} is {pets.tom.age}
